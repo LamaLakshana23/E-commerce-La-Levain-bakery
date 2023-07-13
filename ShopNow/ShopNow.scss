@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @mixin h1color {
+    color: #F26722;
+    font-size: 45px;
+    text-align: center;
+
+}
+@mixin button {
+    padding: 20px;
+    padding-left:25px;
+    padding-right: 25px;
+    background-color: #F26722;
+    border: none;
+    color: white;
+    margin-left: 46%;
+    font-size: 15px;
+}
+$color: #F26722;
+
+  body {
+    .first {
+      background-color: black;
+      color: white;
+      padding: 15px;
+      p 
+      {
+         
+          text-align: center;
+          padding-top: 5px;
+          margin-left:5%;
+      }
+  }
+  header{
+    background-color: #F26722;
+   display: flex;
+   div img {
+      margin-left: 20px;
+   }
+   .list {
+      ul {
+          list-style-type: none;
+          display: flex;
+          color: white;
+          margin-top: 40px;
+          margin-left: 300px;
+
+          li {
+              padding: 13px;
+
+              a {
+              text-decoration: none;
+              color: white;
+
+          }
+      }
+      }
+   }
+  }
+#s1 
+{
+  .container{
+  padding: 80px;
+  margin-top: 40px;
+  color: white;
+  background-image: url(https://www.lalevain.com/wp-content/uploads/2022/12/Chinese-New-Year-Cookies-Group-Shot-Low-Res-1-1-e1671762200276.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+
+  h1 {
+font-size: 50px;
+  }
+  p a {
+    color: white;
+    text-decoration: none;
+
+  }
+}
+.container::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(71, 61, 61,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+}
+/* second section started*/
+
+#s2{
+  margin-top: 50px;
+  .filter {
+    .left {
+      border-right: 1px solid black;
+      label{
+        font-size: 30px;
+      }
+      button {
+        background-color: #F26722;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+      }
+      ul {
+        font-size: 20px;
+      }
+     
+    }
+    .right 
+    {
+      a{
+        text-decoration: none;
+        color: rgb(48, 46, 46);
+        font-size: 20px;
+        padding: 5px;
+      }
+      .DD{
+        margin-top: 65px;
+        margin-bottom: 40px;
+
+      p {
+        font-size: 20px;
+        padding: 3px;
+        width: 90%;
+        background-color: white;
+
+      }
+      .dropdown.ddm{
+        .btn-secondary{
+        background-color: white;
+        color: black;
+      }
+    }
+    }
+    .image{
+      padding-bottom: 30px;
+      .image1{
+        img 
+        {
+          size: cover;
+        width: 100%;
+        }
+        p {
+        }
+        button {
+          background-color: #F26722;
+          color: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: none;
+        }
+      }
+    }
+    }
+  }
+
+  }
+  #s4 {
+    padding: 80px;
+    color: white;
+    background-image: url(https://www.lalevain.com/wp-content/uploads/2021/11/La-Levain-Signatures-1-600x600.jpg);
+    background-size: cover;
+    background-position: center;
+label {
+    font-size: 25px;
+    margin-left: 32%;
+    color: rgb(231, 236, 233);
+    background-color: black;
+    padding: 10px;
+
+}
+input {
+    padding: 10px;
+    width: 41%;
+    margin-left: 32%;
+
+}
+button {
+    @include button();
+    background-color: black;
+    margin-top: 40px;
+}
+}
+footer {
+  padding: 10px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  .parent1 {
+      display: flex;
+      .child1 {
+          width: 60%;
+          p {
+              padding: 10px;
+          }
+      }
+      .child2 {
+          width: 40%;
+          margin-top: 50px;
+          ul {
+              list-style-type: none;
+              display: flex;
+              li 
+              {
+              padding: 10px;
+              }
+          }
+      }
+  }
+  .parent1 {
+      .childa {
+          padding: 10px;
+      }
+      .childb {
+          padding: 10px;
+
+      }
+  }
+  .container {
+      padding: 20px;
+      .parent2 {
+          display: flex;
+          .child3 {
+              width: 60%;
+          }
+          .child4 {
+              width: 40%;
+              ul {
+                  display: flex;
+                  list-style-type: none;
+                  li {
+                   text-decoration: none; padding: 10px;
+                  }
+              }
+          }
+      }
+  }
+}
+
+
+  }
